@@ -12,15 +12,8 @@ target/
 hs_err_pid*
 replay_pid*
 
-# IntelliJ IDEA — track shared config, ignore personal/machine state
-.idea/workspace.xml
-.idea/tasks.xml
-.idea/shelf/
-.idea/dataSources/
-.idea/dataSources.local.xml
-.idea/httpRequests/
-.idea/sqldialects.xml
-.idea/discord.xml
+# IntelliJ IDEA
+.idea/
 *.iws
 *.iml
 *.ipr
