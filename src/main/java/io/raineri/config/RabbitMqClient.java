@@ -7,7 +7,7 @@ import com.rabbitmq.client.amqp.impl.AmqpEnvironmentBuilder;
 
 public class RabbitMqClient {
     private static Connection client;
-    private RabbitMqClient() {
+    public RabbitMqClient() {
         Environment environment = new AmqpEnvironmentBuilder()
                 .connectionSettings()
                 .uri("amqp://guest:guest@localhost:5672/%2f")
